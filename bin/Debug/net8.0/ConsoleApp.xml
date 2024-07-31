@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsoleApp</name>
+    </assembly>
+    <members>
+        <member name="T:ConsoleApp.Controllers.DatabaseTestController">
+            <summary>
+            This controller tests DB connection's health. \n If status 200, then the connection is open. If not, then not.
+            </summary>
+            <returns>status 200 with text "OK"; otherwise, a 500 error with text "ERROR".</returns>
+            <response code="200">OK</response>
+            <response code="500">ERROR</response>
+        </member>
+        <member name="T:ConsoleApp.Controllers.MessageController">
+            <summary>
+            Gets the message stored in DB by the given id.
+            </summary>
+            <param name="id">The id of the message to retrieve.</param>
+            <returns>The message text if found; otherwise, a 404 error.</returns>
+            <response code="200">Returns the message text.</response>
+            <response code="404">If the message is not found.</response>
+        </member>
+    </members>
+</doc>
