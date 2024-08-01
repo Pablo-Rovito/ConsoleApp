@@ -29,3 +29,4 @@ C:\Users\pablo\Código\TestDotNet\ConsoleApp\bin\Debug\net8.0\Swashbuckle.AspNet
 C:\Users\pablo\Código\TestDotNet\ConsoleApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\pablo\Código\TestDotNet\ConsoleApp\bin\Debug\net8.0\ConsoleApp.xml
 C:\Users\pablo\Código\TestDotNet\ConsoleApp\obj\Debug\net8.0\ConsoleApp.xml
+C:\Users\pablo\Código\TestDotNet\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
